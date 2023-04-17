@@ -60,10 +60,8 @@ struct ChooseView: View {
             
             VStack{
                 // Title Text - My Mood Weather is ..
-                Text("My Mood Weather is ..\n \(weatherViewModel.weatherArray[weatherViewModel.weatherIndex].name)")
+                CustomText(value: "My Mood Weather is ..\n \(weatherViewModel.weatherArray[weatherViewModel.weatherIndex].name)", fontSize: 70, color: Color.black)
                     .frame(width: 1000, height: 200, alignment: .center)
-                    .font(.system(size: 70))
-                    .foregroundColor(.black)
                     .background(Color.customGray.opacity(0.75))
                     .cornerRadius(20)
                     .padding(.top, 90)
@@ -74,7 +72,8 @@ struct ChooseView: View {
                 HStack {
                     Spacer()
                     ColorPicker(selection: $backgroundColor, supportsOpacity: true) {
-                        Text("Express your mood color")
+                        CustomText(value: "Express your mood color", fontSize: 23, color: Color.black)
+    
                     }
                     .padding()
                     .background(Color.customGray)
@@ -90,7 +89,7 @@ struct ChooseView: View {
                     Button {
                         showWeatherInformation.toggle()
                     } label: {
-                        Text("What is \(weatherViewModel.weatherArray[weatherViewModel.weatherIndex].name)?")
+                        CustomText(value: "What is \(weatherViewModel.weatherArray[weatherViewModel.weatherIndex].name)?", fontSize: 30, color: Color.white)
                             .foregroundColor(.white)
                             .font(.system(size: 30))
                             .frame(width: 450, height: 50)

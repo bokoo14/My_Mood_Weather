@@ -12,7 +12,7 @@ struct ContentView: View {
     @State var backgroundColor: Color = .white
     @State var showSheet: Bool = false
     
-    let describe: String = "Children aged 5-7 often have difficulty expressing their emotions in concrete terms. Rather than verbally expressing their feelings, young children tend to express themselves through nonverbal means such as actions or gestures.\n\n They may struggle to identify their emotions as they may not fully understand them. Additionally, their language abilities may be limited, making it challenging for them to express their feelings appropriately.\n \"My Mood Weather\" uses weather to represent emotions, helping children to understand their emotions visually and auditorily, and encouraging them to express their emotions actively and to accept them naturally."
+    let describe: String = "Children aged 5-7 often have difficulty expressing their emotions in concrete terms. Rather than verbally expressing their feelings, young children tend to express themselves through nonverbal means such as actions or gestures.\nThey may struggle to identify their emotions as they may not fully understand them. Additionally, their language abilities may be limited, making it challenging for them to express their feelings appropriately.\n \"My Mood Weather\" uses weather to represent emotions, helping children to understand their emotions visually and auditorily, and encouraging them to express their emotions actively and to accept them naturally."
     
     var body: some View {
         NavigationView {
@@ -35,7 +35,6 @@ struct ContentView: View {
                                 .frame(width: 60, height: 60, alignment: .center)
                                 .foregroundColor(.white)
                                 .background(.black)
-                                .cornerRadius(10)
                         }// Button
                         .sheet(isPresented: $showSheet) {
                             AboutView()
@@ -44,20 +43,15 @@ struct ContentView: View {
                         .padding(.top, 20)
                     } // : HStack - AboutView Button
                     
-                    
-                    Text("My Mood Weather🌦️")
+                    CustomText(value: "My Mood Weather🌦️", fontSize: 70, color: Color.black)
                         .frame(width: 750, height: 120, alignment: .center)
-                        .font(.system(size: 70))
-                        .foregroundColor(.black)
                         .background(Color.customGray.opacity(0.75))
                         .cornerRadius(20)
                     
-                    
+                        
                     Spacer()
-                    Text(describe)
+                    CustomText(value: describe, fontSize: 25, color: Color.black)
                         .frame(width: 1000, height: 380, alignment: .center)
-                        .font(.system(size: 30))
-                        .foregroundColor(.black)
                         .padding(10)
                         .background(Color.customGray.opacity(0.75))
                         .cornerRadius(20)
@@ -67,9 +61,7 @@ struct ContentView: View {
                         NavigationLink {
                             ChooseView()
                         } label: {
-                            Text("Express My Mood →")
-                                .foregroundColor(.white)
-                                .font(.system(size: 30))
+                            CustomText(value: "Express My Mood →", fontSize: 30, color: Color.white)
                                 .padding()
                                 .background(.yellow)
                                 .cornerRadius(10)

@@ -30,9 +30,7 @@ struct AboutView: View {
                         Spacer()
                     }
                     
-                    Text(aboutMyMoodWeather)
-                        .foregroundColor(.white)
-                        .font(.system(size: 30))
+                    CustomText(value: aboutMyMoodWeather, fontSize: 30, color: Color.white)
                         .padding(20)
                     
                 } // : VStack

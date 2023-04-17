@@ -30,8 +30,7 @@ struct WeatherInfoView: View {
                         }
                         Spacer()
                     }
-                    
-                    Text("\(weatherViewModel.weatherArray[weatherViewModel.weatherIndex].information)")
+                    CustomText(value: weatherViewModel.weatherArray[weatherViewModel.weatherIndex].information, fontSize: 30, color: Color.black)
                         .font(.system(size: 30))
                         .padding(30)
                     
