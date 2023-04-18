@@ -9,7 +9,7 @@ import SwiftUI
 
 public struct CustomFont {
     public static func registerFonts(fontName: String) {
-        registerFont(bundle: Bundle.main , fontName: fontName, fontExtension: ".ttf") //change according to your ext.
+        registerFont(bundle: Bundle.main , fontName: fontName, fontExtension: ".otf") //change according to your ext.
     }
     fileprivate static func registerFont(bundle: Bundle, fontName: String, fontExtension: String) {
         
