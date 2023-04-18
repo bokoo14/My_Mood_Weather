@@ -13,7 +13,7 @@ Due to their limited language ability and emotional recognition skills, children
 
 The activity of allowing children to choose the background color of the picture according to their mood also respects their autonomy and helps improve their self-efficacy.
 
-## Used Tect
+## Used Tech
 SwiftUI, AVFoundation, Combine
 
 ## Supported Device
