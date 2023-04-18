@@ -16,7 +16,7 @@ struct ChooseView: View {
     
     // @StateObject를 사용하여 ViewModel 객체화하기 -> View가 처음 생성
     @StateObject var weatherViewModel = WeatherViewModel()
-    
+    @StateObject var musicPlayer = MusicPlayer()
     // weatherViewModel의 name, imageName
     @State var weatherName: String = ""
     @State var weatherImageName: String = ""
@@ -38,6 +38,8 @@ struct ChooseView: View {
                 // move image to left index image
                 Button {
                     weatherViewModel.leftWeather(index: weatherViewModel.weatherIndex)
+                    musicPlayer.stopMusic()
+                    musicPlayer.playMusic(name: weatherViewModel.weatherArray[weatherViewModel.weatherIndex].musicName)
                 } label: {
                     Image(systemName: "chevron.left.square")
                         .resizable()
@@ -49,6 +51,8 @@ struct ChooseView: View {
                 Button {
                     // move image to right index image
                     weatherViewModel.rightWeather(index: weatherViewModel.weatherIndex)
+                    musicPlayer.stopMusic()
+                    musicPlayer.playMusic(name: weatherViewModel.weatherArray[weatherViewModel.weatherIndex].musicName)
                 } label: {
                     Image(systemName: "chevron.right.square")
                         .resizable()
@@ -66,12 +70,31 @@ struct ChooseView: View {
                     .background(Color.customGray.opacity(0.75))
                     .cornerRadius(20)
                     .padding(.top, 90)
-                    .padding(.bottom, 60)
+                    .padding(.bottom, 30)
                     .multilineTextAlignment(.center) // 글씨 가운데 정렬
                 
                 // ColorPicker
                 HStack {
                     Spacer()
+                    Button {
+                        musicPlayer.playMusic(name: weatherViewModel.weatherArray[weatherViewModel.weatherIndex].musicName)
+                    } label: {
+                        Image(systemName: "play.rectangle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.black)
+                    } // : Music Stop Button
+                    
+                    
+                    Button {
+                        musicPlayer.stopMusic()
+                    } label: {
+                        Image(systemName: "pause.rectangle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.black)
+                    } // : Music Stop Button
+                    
                     ColorPicker(selection: $backgroundColor, supportsOpacity: true) {
                         CustomText(value: "Express your mood color", fontSize: 23, color: Color.black)
     
@@ -83,6 +106,7 @@ struct ChooseView: View {
                     .font(.headline)
                     .frame(width: 350, height: 20)
                     .padding(.trailing, 85)
+                    .padding(.horizontal, 20)
                 } // : HStack - ColorPicker
                 
                 Spacer()
@@ -111,6 +135,11 @@ struct ChooseView: View {
             } // : VStack - Text, ColorPicker, Button
             
         } // : ZStack
+        .onAppear {
+            print("음악 재생")
+            musicPlayer.stopMusic()
+            musicPlayer.playMusic(name: weatherViewModel.weatherArray[weatherViewModel.weatherIndex].musicName)
+        }
     } 
 }
 

@@ -37,16 +37,16 @@ class WeatherViewModel: ObservableObject {
     // weather
     func getWeather() {
         // weather의 각각의 값 선언
-        let cloudy = WeatherModel(name: "Cloudy☁️", imageName: "Cloudy", information: cloudInfo)
-        let drizzle = WeatherModel(name: "Drizzle🌦️", imageName: "Drizzle", information: drizzleInfo)
-        let fog = WeatherModel(name: "Fog🌫️", imageName: "Fog", information: fogInfo)
-        let heavysnow = WeatherModel(name: "Heavy Snow🌨️", imageName: "HeavySnow", information: heavySnowInfo)
-        let lightning = WeatherModel(name: "Lightning⚡️", imageName: "Lightning", information: ligttningInfo)
-        let raining = WeatherModel(name: "Raining🌧️", imageName: "Raining", information: rainingInfo)
-        let snow = WeatherModel(name: "Snow⛄️", imageName: "Snow", information: snowInfo)
-        let suddenshower = WeatherModel(name: "Sudden Shower🌧️🌧️🌧️", imageName: "SuddenShower", information: suddenShowerInfo)
-        let sunny = WeatherModel(name: "Sunny☀️", imageName: "Sunny", information: sunnyInfo)
-        let typoon = WeatherModel(name: "Typoon🌪️", imageName: "Typoon", information: typoonInfo)
+        let cloudy = WeatherModel(name: "Cloudy☁️", imageName: "Cloudy", information: cloudInfo, musicName: "Heavy-Rain")
+        let drizzle = WeatherModel(name: "Drizzle🌦️", imageName: "Drizzle", information: drizzleInfo, musicName: "Drizzle")
+        let fog = WeatherModel(name: "Fog🌫️", imageName: "Fog", information: fogInfo, musicName: "Fog")
+        let heavysnow = WeatherModel(name: "Heavy Snow🌨️", imageName: "HeavySnow", information: heavySnowInfo, musicName: "HeavySnow")
+        let lightning = WeatherModel(name: "Lightning⚡️", imageName: "Lightning", information: ligttningInfo, musicName: "Lightning")
+        let raining = WeatherModel(name: "Raining🌧️", imageName: "Raining", information: rainingInfo, musicName: "Raining")
+        let snow = WeatherModel(name: "Snow⛄️", imageName: "Snow", information: snowInfo, musicName: "Snow")
+        let suddenshower = WeatherModel(name: "Sudden Shower🌧️🌧️🌧️", imageName: "SuddenShower", information: suddenShowerInfo, musicName: "SuddenShower")
+        let sunny = WeatherModel(name: "Sunny☀️", imageName: "Sunny", information: sunnyInfo, musicName: "Sunny")
+        let typhoon = WeatherModel(name: "Typoon🌪️", imageName: "Typoon", information: typoonInfo, musicName: "Typhoon")
         
         // weatherArray에 weather저장
         self.weatherArray.append(cloudy)
@@ -58,7 +58,7 @@ class WeatherViewModel: ObservableObject {
         self.weatherArray.append(snow)
         self.weatherArray.append(suddenshower)
         self.weatherArray.append(sunny)
-        self.weatherArray.append(typoon)
+        self.weatherArray.append(typhoon)
     }
     
     // "<"버튼을 누르면 index를 1 감소시킴

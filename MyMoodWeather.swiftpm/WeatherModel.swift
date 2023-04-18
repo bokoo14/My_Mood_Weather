@@ -12,4 +12,5 @@ struct WeatherModel: Identifiable {
     let name: String // 화면에 표시할 날씨 정보
     let imageName: String // 이미지의 이름
     let information: String // 날씨에 대한 정보
+    let musicName: String // 음악 이름
 }
