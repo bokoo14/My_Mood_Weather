@@ -23,7 +23,7 @@ SwiftUI, AVFoundation, Combine
 
 
 ## Overview "My Mood Weather"
- <img src = "https://user-images.githubusercontent.com/97583162/232839387-62fb6998-c063-47ef-9fad-c49b332ac29b.png" width="800px">  
+ <img src = "https://user-images.githubusercontent.com/97583162/232839387-62fb6998-c063-47ef-9fad-c49b332ac29b.png" width="850px">  
  
 | <img src = "https://user-images.githubusercontent.com/97583162/232837986-d64924b7-ca0e-4c42-a1d6-8034ccc5f8f8.png" width="400px">  | <img src = "https://user-images.githubusercontent.com/97583162/232839352-658abe6f-d632-4717-9c06-c3b581a1eb7c.png" width="400px"> | 
 |:----:|:----:|
