@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import AVFoundation
+import Combine
 
 struct ChooseView: View {
     // property
@@ -41,7 +43,6 @@ struct ChooseView: View {
                         .resizable()
                         .frame(width: 90, height: 90)
                         .foregroundColor(.black)
-                    
                 }
                 .padding(.horizontal, 15)
                 Spacer()
