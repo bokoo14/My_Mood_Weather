@@ -37,12 +37,12 @@ class WeatherViewModel: ObservableObject {
     // weather
     func getWeather() {
         // weather의 각각의 값 선언
-        let cloudy = WeatherModel(name: "Cloudy☁️", imageName: "Cloudy", information: cloudInfo, musicName: "Heavy-Rain")
+        let cloudy = WeatherModel(name: "Cloudy☁️", imageName: "Cloudy", information: cloudInfo, musicName: "Cloudy")
         let drizzle = WeatherModel(name: "Drizzle🌦️", imageName: "Drizzle", information: drizzleInfo, musicName: "Drizzle")
         let fog = WeatherModel(name: "Fog🌫️", imageName: "Fog", information: fogInfo, musicName: "Fog")
         let heavysnow = WeatherModel(name: "Heavy Snow🌨️", imageName: "HeavySnow", information: heavySnowInfo, musicName: "HeavySnow")
         let lightning = WeatherModel(name: "Lightning⚡️", imageName: "Lightning", information: ligttningInfo, musicName: "Lightning")
-        let raining = WeatherModel(name: "Raining🌧️", imageName: "Raining", information: rainingInfo, musicName: "Raining")
+        let raining = WeatherModel(name: "Raining🌧️", imageName: "Raining", information: rainingInfo, musicName: "Rain")
         let snow = WeatherModel(name: "Snow⛄️", imageName: "Snow", information: snowInfo, musicName: "Snow")
         let suddenshower = WeatherModel(name: "Sudden Shower🌧️🌧️🌧️", imageName: "SuddenShower", information: suddenShowerInfo, musicName: "SuddenShower")
         let sunny = WeatherModel(name: "Sunny☀️", imageName: "Sunny", information: sunnyInfo, musicName: "Sunny")
