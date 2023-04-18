@@ -32,6 +32,7 @@ struct ContentView: View {
                         } label: {
                             Image(systemName: "questionmark.square")
                                 .resizable()
+                                //.aspectRatio(contentMode: .fit)
                                 .frame(width: 60, height: 60, alignment: .center)
                                 .foregroundColor(.white)
                                 .background(.black)
