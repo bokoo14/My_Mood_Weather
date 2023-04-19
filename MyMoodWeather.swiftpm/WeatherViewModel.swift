@@ -46,7 +46,7 @@ class WeatherViewModel: ObservableObject {
         let snow = WeatherModel(name: "Snow⛄️", imageName: "Snow", information: snowInfo, musicName: "Snow")
         let suddenshower = WeatherModel(name: "Sudden Shower🌧️🌧️🌧️", imageName: "SuddenShower", information: suddenShowerInfo, musicName: "SuddenShower")
         let sunny = WeatherModel(name: "Sunny☀️", imageName: "Sunny", information: sunnyInfo, musicName: "Sunny")
-        let typhoon = WeatherModel(name: "Typoon🌪️", imageName: "Typoon", information: typoonInfo, musicName: "Typhoon")
+        let typhoon = WeatherModel(name: "Typhoon🌪️", imageName: "Tyhoon", information: typoonInfo, musicName: "Typhoon")
         
         // weatherArray에 weather저장
         self.weatherArray.append(cloudy)
