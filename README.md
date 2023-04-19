@@ -3,8 +3,10 @@ WWDC_2023
 
 <img src = "https://user-images.githubusercontent.com/97583162/232837986-d64924b7-ca0e-4c42-a1d6-8034ccc5f8f8.png" width="800px">  
 
+## What is "My Mood Weather"?
+'My Mood Weather' is an iPadOS application designed to help children understand and express their emotions. It uses weather to express emotions, which helps children understand their emotions visually and audibly. By doing so, children are encouraged to express their emotions actively and accept them naturally. The activities in the 'My Mood Weather' enable children to choose background colors that match their mood, which enhances their sense of autonomy and self-efficacy.
 
-
+According to research studies, children aged 5-7 typically have difficulty expressing their emotions in a concrete way, often resorting to non-verbal methods such as actions or gestures, as reported in the Journal of Personality and Social Psychology and the Journal of Child Language. They often use non-verbal methods such as actions or gestures rather than expressing themselves in words. Therefore, this app aims to help children overcome this challenge by providing an interactive platform for them to learn how to understand and express their emotions. The app's use of colors, weather, and sounds to express emotions can also help facilitate communication and relationship-building between parents and children, thereby promoting healthy emotional development.
 
 
 ## Used Tech
@@ -62,6 +64,7 @@ Creative Commons CC BY 4.0
 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 - Rain  
+Music: https://www.chosic.com/free-music/all/  
 
 - Snow  
 Jingle Bells by Kevin MacLeod | [https://incompetech.com/](https://incompetech.com/)
@@ -70,6 +73,7 @@ Creative Commons CC BY 3.0
 [https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)
 
 - SuddenShower  
+Music: https://www.chosic.com/free-music/all/  
 
 - Sunny  
 Happy and Joyful Children by Free Music | [https://soundcloud.com/fm_freemusic](https://soundcloud.com/fm_freemusic)
