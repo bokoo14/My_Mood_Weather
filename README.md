@@ -3,15 +3,9 @@ WWDC_2023
 
 <img src = "https://user-images.githubusercontent.com/97583162/232837986-d64924b7-ca0e-4c42-a1d6-8034ccc5f8f8.png" width="800px">  
 
-## What is "My Mood Weather"?
-Children aged 5-7 often have difficulty expressing their emotions in concrete terms. Rather than verbally expressing their feelings, young children tend to express themselves through nonverbal means such as actions or gestures. They may struggle to identify their emotions as they may not fully understand them. Additionally, their language abilities may be limited, making it challenging for them to express their feelings appropriately. "My Mood Weather" uses weather to represent emotions, helping children to understand their emotions visually, and encouraging them to express their emotions actively and to accept them naturally.
 
-## About “My Mood Weather”
-My Mood Weather is an app designed to help young children actively understand and express their emotions. Children aged 5-7 commonly express their feelings through nonverbal behaviors such as actions or gestures rather than verbal communication. For example, when feeling angry, they may stomp their feet or swing their arms, and when feeling sad, they may cry.
 
-Due to their limited language ability and emotional recognition skills, children may have difficulty expressing their emotions in words. My Mood Weather encourages children to understand their mood by associating it with weather, and helps them actively recognize and express their emotions. This activity can help children express their emotions proactively even in situations where it may be uncomfortable, and help them naturally accept their emotions.
 
-The activity of allowing children to choose the background color of the picture according to their mood also respects their autonomy and helps improve their self-efficacy.
 
 ## Used Tech
 SwiftUI, AVFoundation, Combine
@@ -29,3 +23,62 @@ SwiftUI, AVFoundation, Combine
 |:----:|:----:|
 | <img src = "https://user-images.githubusercontent.com/97583162/232839363-78478393-5d51-41f6-9300-df9c6f26c55a.png" width="400px"> | <img src = "https://user-images.githubusercontent.com/97583162/232839372-e69f4b7a-1764-4ccf-a7ba-66f70f8e6688.png" width="400px"> | <img src = "https://user-images.githubusercontent.com/97583162/232839376-5157334d-709d-4f21-aa18-e2fa3372ce8d.png" width="400px"> |
 | <img src = "https://user-images.githubusercontent.com/97583162/232843703-65248271-86b3-4e32-913d-2b04cbe4eb7a.png" width="400px"> | <img src = "https://user-images.githubusercontent.com/97583162/232839381-b37f0a72-2672-4f62-a141-ddb20a69793d.png" width="400px"> |
+
+
+
+### Used Resources
+[Images]
+Copyright 2023. (Park Bokyung - Luna) All images cannot be copied without permission.
+
+[Music]
+- Cloudy  
+Somewhere in the Clouds by Keys of Moon | [https://soundcloud.com/keysofmoon](https://soundcloud.com/keysofmoon)
+Music promoted by [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons CC BY 4.0
+[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+- Drizzle  
+Green Tea by Purrple Cat | [https://purrplecat.com/](https://purrplecat.com/)
+Music promoted on [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+[https://creativecommons.org/licenses/by-sa/3.0/](https://creativecommons.org/licenses/by-sa/3.0/)
+
+- Fog  
+Otjánbird Pt. I by Spheriá | [https://soundcloud.com/spheriamusic](https://soundcloud.com/spheriamusic)
+Music promoted by [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons CC BY-SA 3.0
+[https://creativecommons.org/licenses/by-sa/3.0/](https://creativecommons.org/licenses/by-sa/3.0/)
+
+- HeavySnow  
+Christmas Spirit by Shane Ivers | [https://www.silvermansound.com](https://www.silvermansound.com/)
+Music promoted by [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons CC BY 4.0
+[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+- Lightning  
+Haunted Harpsichord by Shane Ivers | [https://www.silvermansound.com](https://www.silvermansound.com/)
+Music promoted by [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons CC BY 4.0
+[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+- Rain  
+
+- Snow  
+Jingle Bells by Kevin MacLeod | [https://incompetech.com/](https://incompetech.com/)
+Music promoted by [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons CC BY 3.0
+[https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)
+
+- SuddenShower  
+
+- Sunny  
+Happy and Joyful Children by Free Music | [https://soundcloud.com/fm_freemusic](https://soundcloud.com/fm_freemusic)
+Music promoted by [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons CC BY 3.0
+[https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)
+
+- Typhoon  
+It’s In The Fog by Darren Curtis | [https://www.darrencurtismusic.com/](https://www.darrencurtismusic.com/)
+Music promoted by [https://www.chosic.com/free-music/all/](https://www.chosic.com/free-music/all/)
+Creative Commons CC BY 3.0
+[https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)
