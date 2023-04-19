@@ -62,6 +62,7 @@ Creative Commons CC BY 4.0
 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 - Rain  
+Music: https://www.chosic.com/free-music/all/  
 
 - Snow  
 Jingle Bells by Kevin MacLeod | [https://incompetech.com/](https://incompetech.com/)
@@ -70,6 +71,7 @@ Creative Commons CC BY 3.0
 [https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)
 
 - SuddenShower  
+Music: https://www.chosic.com/free-music/all/  
 
 - Sunny  
 Happy and Joyful Children by Free Music | [https://soundcloud.com/fm_freemusic](https://soundcloud.com/fm_freemusic)
