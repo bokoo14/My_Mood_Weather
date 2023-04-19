@@ -7,7 +7,7 @@
 
 import SwiftUI
 import AVFoundation
-import Combine
+//import Combine
 
 struct ChooseView: View {
     // property
