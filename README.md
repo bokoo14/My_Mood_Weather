@@ -10,7 +10,7 @@ According to research studies, children aged 5-7 typically have difficulty expre
 
 
 ## Used Tech
-SwiftUI, AVFoundation, Combine
+SwiftUI, AVFoundation
 
 ## Supported Device
 - iPad air4
